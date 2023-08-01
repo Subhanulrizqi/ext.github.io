@@ -1,0 +1,120 @@
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   var myButton = document.getElementById("button");
+  //   myButton.addEventListener("click", function() {
+  //     // var field = document.querySelector('input[name="urd"]');
+  //     // fillField(field, "saya");
+  //     // console.log("test");  
+  //     alert("testing");
+  //     // chrome.tabs.executeScript({
+  //     //   code: "alert(document.title)"
+  //     // });
+  //   });
+  //   });
+    
+    // function fillField(field,value){
+    //   if(field){
+    //     field.value = value;
+    //   }
+    // }
+  
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   var myButton = document.getElementById("button");
+  //   myButton.addEventListener("click", function() {
+  //     // var urdInput = document.getElementById('urd');
+  //     // if (urdInput) {
+  //     //   urdInput.value = "Rizqi";
+  //     // }(
+  //     alert("test");
+  //   });
+  // });
+  // document.getElementById('autoFillButton').addEventListener('click', function() {
+//   document.getElementById('urd').value = 'John Doe';
+// });
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+    //   const urdInput = document.querySelector('urd');
+    //   if (urdInput) {
+        //     urdInput.value = 'yyy';
+        //   }
+        // });
+        
+        
+// document.getElementById('button').addEventListener('load', function() {
+//     const urdInput = document.getElementById('urd');
+//     urdInput.value = 'yot';
+// });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.getElementById('button');
+  button.addEventListener('click', function() {
+      alert("testing");
+  });
+});
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   var myButton = document.getElementById("button");
+  //   myButton.addEventListener("click", function() {
+  //     // var urdInput = document.getElementById('urd');
+  //     // if (urdInput) {
+  //     //   urdInput.value = "Rizqi";
+  //     // }(
+  //     alert("test");
+  //   });
+  // });
+
+  // (function(){
+  //   'use strict';
+
+  //   var ext = document.getElementById('urd');
+  //   ext.value = "Testing";
+  // })
+
+  // document.getElementById("button").addEventListener("click", function() {
+              
+// //     waitForKeyElements ("#urd", jNd => {SetValue (jNd, "firstFlld", "Riski");}, true);
+
+// // function SetValue (jNode, flagVarName, newValue) {
+// // jNode.val (newValue);
+// // }
+// // });
+
+
+// // ==UserScript==
+// // @name         Script
+// // @include      https://checkout.bigcartel.com/*
+// // @include      http://*.bigcartel.com/product
+// // @include      http://*.bigcartel.com/cart
+// // @grant        none
+// // ==/UserScript==
+
+// // on "/cart" page click checkout button
+// if (window.location.origin !== "https://login.angondata.net/interface/LoginService?service=interface&passive=true&rm=false") document.getElementsById("button")[0].click();
+// else {
+//     // fill first three form fields
+//     document.getElementById("urd").value = "John";
+//     document.querySelector('input[type="text"][value="continue"]').click();
+// }
+
+
+
+
+
+
+// const myButton = document.querySelector("button");
+
+// myButton.addEventListener("click", function() {
+//   // Script yang ingin dijalankan saat tombol diklik
+// //   alert("Testing");
+// alert("Tombol diklik!");
+
+  
+//   // Tambahkan kode script yang ingin dijalankan di sini
+//   // ...
+//   waitForKeyElements ("urd", jNd => {SetValue (jNd, "firstFlld", "Riski"); }, true);
+// //   waitForKeyElements ("#urp", jNd => {SetValue (jNd, "ndFlld", "rizkis4j4!!!"); }, true);
+  
+//   function SetValue (jNode, _flagVarName, newValue) {
+//       jNode.val (newValue);
+//   }
+  
+// });
